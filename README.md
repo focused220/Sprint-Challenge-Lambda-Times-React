@@ -28,10 +28,25 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+        -PropTypes are used to type check the data used within an app. It enforces strict rules about the types of 
+        data allowed to traverse the applications structure. This is important for maintaining proper functionality and lends itself to establishing a secure architecture. 
+
+- [x] Describe a life-cycle event in React?
+
+        -A life-cycle event in React is used to manage varying aspects/properties within an application. The life-cycle events are implemented at different points within the applications life; birth, growth and death respectively.
+
+- [x] Explain the details of a Higher Order Component?
+
+        -Higher Order Components implement/operate on other functional/class components. They don't get in to the gritty details of how a class/functional compenent operates, but instead 'order' components at a 'higher' level.
+
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
+
+        -Components can be styled directly using CSS, allowing for more direct control and manipulation. 
+        -Styles can be applied using JS(styled components), this is convenient when styling requirements are        minimal and the developer is working heavily in JS.
+        -Reactstrap is another way to style components. These are styles that come built in to React properties,    they make creating components and styling them a very seamless and straight forward process.
+        -Components can also be styled using inline styling techniques within the app's HTML. This is also very straight forward but comes with more limitations than benifits if styling is a priority within an application.
 
 ## Project Setup
 
